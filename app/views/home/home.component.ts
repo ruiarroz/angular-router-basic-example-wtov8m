@@ -14,6 +14,9 @@ import { Http } from '@angular/http';
     <li>5. Criar o routing "/entrevista" para o componente </li>
     <li>6. Adicionar hiperligação "Entrevista" a seguir ao <b>"Home"</b> no topo da página</li>
     </ul>
+    <br>
+    <br>
+    <p>Tempo previsto: <b>10 minutos</b></p>
   `,
 })
 export class HomeViewComponent {
