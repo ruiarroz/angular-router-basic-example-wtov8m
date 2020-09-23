@@ -9,9 +9,7 @@ import { Component } from '@angular/core';
     <a routerLinkActive="active"
        routerLink="/home">Home</a> 
     
-        <a routerLinkActive="active"
-       routerLink="/entrevista">Entrevista</a> 
-    </div>
+</div>
  
       
     <router-outlet></router-outlet>

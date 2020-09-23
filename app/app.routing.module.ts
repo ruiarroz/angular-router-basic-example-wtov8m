@@ -1,8 +1,6 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HomeViewComponent } from './views/home/home.component';
-import { SolidbinaryComponent } from './views/solidbinary/solidbinary.component';
-
 
 @NgModule({
   declarations: [ 
@@ -10,8 +8,7 @@ import { SolidbinaryComponent } from './views/solidbinary/solidbinary.component'
   ],
   imports: [
     RouterModule.forRoot([ 
-      { path: 'home', component: HomeViewComponent },    
-      { path: 'entrevista', component: SolidbinaryComponent },    
+      { path: 'home', component: HomeViewComponent },
       { path: '**', redirectTo: 'home' }
     ])
   ],

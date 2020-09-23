@@ -5,10 +5,10 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-import { SolidbinaryComponent } from './views/solidbinary/solidbinary.component';
+
 
 @NgModule({
-  declarations: [ AppComponent, SolidbinaryComponent],
+  declarations: [ AppComponent ],
   imports: [ 
     AppRoutingModule, 
     BrowserModule, FormsModule, HttpModule 
