@@ -10,3 +10,12 @@
   border-bottom:1px dashed orange;
   font-size:1.4em;
 }
+
+.editor
+{
+  font-size:1.6em;
+  text-decoration:underline;
+  margin-top:60px;
+  display:block;
+  
+}

@@ -13,7 +13,17 @@ import { Component } from '@angular/core';
  
       
     <router-outlet></router-outlet>
+
+
+
+            <a href="https://stackblitz.com/edit/entrevista-solidbinary?file=app%2Fapp.component.ts" class="editor">Ir para o Editor de Código</a>
+
+
   </div>
+
+
+
+
   `,
   styleUrls: [ './app.component.css' ]
 })
